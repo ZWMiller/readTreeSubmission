@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<job maxFilesPerProcess="10" >
+  <command>
+    root4star -l -b -q
+
+  
+  </command>
+  <stdout URL="file:/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/out/readTree_$JOBID.out" />
+  <stderr URL="file:/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/err/readTree_$JOBID.err" />
+  <Generator>
+    <Location>/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/report/</Location>
+    <ScriptLocation>/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/csh/</ScriptLocation>
+    <ListLocation>/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/list/</ListLocation>
+  </Generator>
+
+  <input URL="filelist:/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/Trees.list"/>
+</job>

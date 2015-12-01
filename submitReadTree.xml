@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <job fileListSyntax="paths" minFilesPerProcess="1" maxFilesPerProcess="2" simulateSubmission="false"> 
   <command>
+<<<<<<< HEAD
     cp /global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates111915/submitJob.sh .
     source submitJob.sh
   </command>
@@ -13,4 +14,18 @@
   </Generator>
 
   <input URL="filelist:/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates111915/Trees.list"/>
+=======
+    cp /global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/submitJob.sh .
+    source submitJob.sh
+  </command>
+  <stdout URL="file:/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/out/readTree_$JOBID.out" />
+  <stderr URL="file:/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/err/readTree_$JOBID.err" />
+  <Generator>
+    <Location>/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/report/</Location>
+    <ScriptLocation>/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/csh/</ScriptLocation>
+    <ListLocation>/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/list/</ListLocation>
+  </Generator>
+
+  <input URL="filelist:/global/homes/z/zamiller/simu/npehOutput/storageDirectoryPWG/minBiasTemplates101015/Trees.list"/>
+>>>>>>> bf7aee2dafdd66982fd57aa8fbc5489e83c6783d
 </job>
